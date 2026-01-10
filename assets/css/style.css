@@ -237,9 +237,13 @@ main {
   margin-right: 20px;
 }
 
+.image {
+  flex-basis: 33%;
+}
+
 .imgBlog {
-  width: 200px;
-  height: 100%;
+  height: 50%;
+  max-width: 300px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
@@ -273,7 +277,7 @@ main {
 
 .footer {
   border-top: 1px solid #e7e7e7;
-  margin-top: 50px;
+  margin-top: 30px;
   padding-top: 20px;
   display: flex;
   align-content: flex-start;
