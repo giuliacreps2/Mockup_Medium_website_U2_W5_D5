@@ -23,6 +23,7 @@ button,
 a {
   font-family: "Plus Jakarta Sans", sans-serif;
   letter-spacing: -0.02em;
+  line-height: 1.2em;
 }
 
 h2,
@@ -51,7 +52,6 @@ h3 {
 hero p {
   font-size: 18px;
   color: black;
-  line-height: 1.2em;
 }
 
 .text {
@@ -178,6 +178,7 @@ article {
 .card_trend {
   display: flex;
   margin: 20px 5px;
+  flex-basis: 33%;
 }
 
 .information {
@@ -195,12 +196,10 @@ article {
   border-radius: 100%;
 }
 
-/* categoria per icone di loghi
-
-iconLogo {
-width: 20px;
-  border-radius: 20px;
-}*/
+.iconLogo {
+  width: 20px;
+  border-radius: 2px;
+}
 
 .bestReading {
   display: flex;
@@ -208,6 +207,6 @@ width: 20px;
   margin-bottom: 10px;
 }
 
-img {
+.star {
   margin-left: 5px;
 }
