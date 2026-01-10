@@ -32,6 +32,7 @@ h5,
 h6 {
   font-weight: 700;
   font-style: normal;
+  margin-bottom: 12px;
 }
 
 h2 {
@@ -49,10 +50,14 @@ h3 {
 
 hero p {
   font-size: 18px;
+  color: black;
+  line-height: 1.2em;
 }
 
 .text {
   font-size: 12px;
+  font-weight: 600;
+  margin-left: 6px;
 }
 
 .number {
@@ -82,19 +87,19 @@ a {
 }
 
 /* STYLE BUTTON */
-
 button {
   background-color: transparent;
   padding: 8px;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
+  margin-right: 14px;
 }
 
 .start {
   padding: 8px 20px;
   color: white;
-  border-radius: 18px;
+  border-radius: 22px;
   background-color: black;
   font-size: 16px;
   border: none;
@@ -120,14 +125,89 @@ button {
 }
 
 /* STYLE HEADER */
-
 header {
+  padding: 20px 50px;
   background-color: #ffc017;
   display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
 /* STYLE NAVBAR */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
 
-nav {
+/* STYLE HERO SECTION */
+hero {
+  padding: 50px 50px;
   background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.item,
+.rounded {
+  margin: 20px 5px;
+}
+
+/* ARTICLE SECTION */
+article {
+  padding: 40px 50px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* TRENDING ON MEDIUM */
+.trending {
+  display: flex;
+  align-items: center;
+}
+
+.trending h4 {
+  margin-left: 10px;
+}
+
+/* CARD WITHOUT ICON ON PUBLICATION */
+.container1 {
+  display: flex;
+}
+
+.card_trend {
+  display: flex;
+  margin: 20px 5px;
+}
+
+.information {
+  margin-left: 20px;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.iconAuthor {
+  width: 20px;
+  border-radius: 100%;
+}
+
+/* categoria per icone di loghi
+
+iconLogo {
+width: 20px;
+  border-radius: 20px;
+}*/
+
+.bestReading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-left: 5px;
 }
