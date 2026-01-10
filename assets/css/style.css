@@ -150,7 +150,7 @@ ul {
 
 /* STYLE HERO SECTION */
 hero {
-  padding: 50px 50px;
+  padding: 0px 50px;
   background-color: #ffc017;
   display: flex;
   justify-content: space-between;
@@ -162,13 +162,13 @@ hero {
   margin: 20px 5px;
 }
 
-/* ARTICLE SECTION */
+/* STYLE ARTICLE SECTION */
 article {
   padding: 40px 50px;
   background-image: url("/svg.html");
 }
 
-/* TRENDING ON MEDIUM */
+/* STYLE TRENDING ON MEDIUM */
 
 .trending {
   display: flex;
@@ -177,9 +177,11 @@ article {
 
 .trending h4 {
   margin-left: 10px;
+  margin-bottom: 0;
+  letter-spacing: 0.08em;
 }
 
-/* CARD WITHOUT ICON ON PUBLICATION */
+/* STYLE CARD WITH AND WITHOUT ICON */
 
 .card_container {
   display: flex;
@@ -224,7 +226,7 @@ article {
   margin-left: 5px;
 }
 
-/* MAIN */
+/* STYLE MAIN */
 
 main {
   padding: 60px 50px;
@@ -238,6 +240,7 @@ main {
   justify-content: space-between;
   padding: 0;
   flex-basis: 66%;
+  border-top: none;
 }
 
 .blog {
@@ -274,7 +277,7 @@ main {
   margin-top: 10px;
 }
 
-/* DISCOVER */
+/* STYLE DISCOVER */
 
 .discover {
   flex-basis: 30%;
@@ -283,7 +286,7 @@ main {
 
 .discover h4 {
   position: sticky;
-  top: 5px;
+  top: 8px;
 }
 
 .search {
@@ -294,7 +297,7 @@ main {
   top: 30px;
 }
 
-/* FOOTER */
+/* STYLE FOOTER */
 
 .footer {
   border-top: 1px solid #e7e7e7;
