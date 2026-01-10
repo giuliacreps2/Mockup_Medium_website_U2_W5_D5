@@ -158,6 +158,11 @@ hero {
   border-bottom: 1px solid black;
 }
 
+.heroImage {
+  flex: 0 6 auto;
+  flex-shrink: 6;
+}
+
 .item,
 .rounded {
   margin: 20px 5px;
@@ -278,6 +283,20 @@ main {
   margin-top: 10px;
 }
 
+/*prova*/
+
+.data .metadata {
+  flex: 1 1 auto;
+}
+
+.data .argument {
+  flex: 0 1 auto;
+}
+
+.data img {
+  flex: 0 0 auto;
+}
+
 /* STYLE DISCOVER */
 
 .discover {
@@ -326,8 +345,17 @@ main {
     vertical-align: auto;
   }
 
+  .heroSection {
+    flex-basis: 60%;
+  }
+
   .heroImage {
-    flex-basis: 50%;
+    flex-basis: 30%;
+  }
+
+  .M {
+    object-fit: cover;
+    max-width: 450px;
   }
 
   /*.heroImage {
