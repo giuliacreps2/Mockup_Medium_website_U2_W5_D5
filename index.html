@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medium</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!--HEADER-->
@@ -16,7 +17,7 @@
           <li><button>Membership</button></li>
           <li><button>Write</button></li>
           <li><button>Sign In</button></li>
-          <li><button>Get Started</button></li>
+          <li><button class="start">Get Started</button></li>
         </ul>
       </nav>
     </header>
@@ -25,28 +26,28 @@
     <hero>
       <h1>Stay curious.</h1>
       <p>Discover stories, thinking, and expertise from writers on any topic.</p>
-      <button>Starting reading</button>
+      <button class="rounded">Start reading</button>
       <!--svg M-->
     </hero>
 
     <!--TRENDING ON MEDIUM-->
     <article>
-      <div id="trending_on_medium">
+      <div class="trending">
         <img src="./assets/imgs/svg/trending.svg" /><!--metti l'alt sulle immagini-->
-        <p>TRENDING ON MEDIUM</p>
+        <h4>TRENDING ON MEDIUM</h4>
       </div>
 
       <!--CARD WITHOUT ICON ON PUBLICATION-->
       <div class="card_container1">
         <div class="card_trend">
-          <p>01</p>
+          <p class="number">01</p>
           <div class="information">
-            <div class="icon+text">
+            <div class="iconText">
               <img src="./assets/imgs/image01.jpeg" /><!--metti l'alt sulle immagini-->
-              <p>Tom Cooper</p>
+              <p class="text">Tom Cooper</p>
             </div>
-            <h4>Ukraine War, 23 October 2022</h4>
-            <p class="publication"></p>
+            <h3>Ukraine War, 23 October 2022</h3>
+            <p class="metadata">Oct 27 · 5 min read ·</p>
           </div>
         </div>
       </div>
@@ -54,16 +55,16 @@
       <!--CARD WITH ICON ON PUBLICATION-->
       <div class="card_container1">
         <div class="card_trend">
-          <p>01</p>
+          <p class="number">01</p>
           <div class="information">
             <div class="icon+text">
               <img src="./assets/imgs/image01.jpeg" />
               <!--metti l'alt sulle immagini-->
-              <p>Tom Cooper</p>
+              <p class="text">Tom Cooper</p>
             </div>
-            <h4>Ukraine War, 23 October 2022</h4>
+            <h3>Ukraine War, 23 October 2022</h3>
             <div class="text+icon">
-              <p class="publication"></p>
+              <p class="metadata">Oct 27 · 5 min read ·</p>
               <img src="./assets/imgs/svg/star.svg" /><!--metti l'alt sulle immagini-->
             </div>
           </div>
@@ -80,13 +81,13 @@
           <div class="icon+text">
             <img src="./assets/imgs/image07.jpeg" />
             <!--metti l'alt sulle immagini-->
-            <p>Robert Roy Britt</p>
+            <p class="text">Robert Roy Britt</p>
           </div>
-          <h3>How Old is Old?</h3>
+          <h2>How Old is Old?</h2>
           <p>What we consider “old” changes dramatically with age, and our perspectives can be predictive of how well we age</p>
           <div class="information_about_publication">
             <div class="data">
-              <p>Oct 27 · 5 min read ·</p>
+              <p class="metadata">Oct 27 · 5 min read ·</p>
               <button class="argument">Aging</button>
               <img src="./assets/imgs/svg/star.svg" />
             </div>
@@ -97,17 +98,15 @@
 
       <!--SEARCH ARGUMENT-->
       <div class="discover">
-        <div class="search_on_blog">
-          <h4>DISCOVER MORE OF WHAT MATTERS TO YOU</h4>
-          <div class="container">
-            <!--FLEXBOX CON 3 BOTTONI-->
-            <div class="arguments">
-              <ul>
-                <li><button>Programming</button></li>
-                <li><button>Data Science</button></li>
-                <li><button>Technology</button></li>
-              </ul>
-            </div>
+        <h4>DISCOVER MORE OF WHAT MATTERS TO YOU</h4>
+        <div class="search">
+          <!--FLEXBOX CON 3 BOTTONI-->
+          <div class="arguments">
+            <ul>
+              <li><button class="rectangular">Programming</button></li>
+              <li><button class="rectangular">Data Science</button></li>
+              <li><button class="rectangular">Technology</button></li>
+            </ul>
           </div>
         </div>
 
