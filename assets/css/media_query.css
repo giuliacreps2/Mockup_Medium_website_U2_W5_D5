@@ -1,0 +1,76 @@
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 82px;
+  }
+
+  hero {
+    padding: 50px 30px 10px 50px;
+    vertical-align: auto;
+  }
+
+  .heroImage {
+    flex-basis: 50%;
+  }
+
+  /*.heroImage {
+    align-self: stretch;
+    background-image: url("/assets/imgs/svg/background.svg");
+  }*/
+
+  .M {
+    width: 100%;
+    height: auto;
+  }
+
+  .card_trend {
+    display: flex;
+    margin: 20px 5px;
+    flex-basis: 48%;
+  }
+
+  main {
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-top: 1px solid #e7e7e7;
+  }
+
+  .blog {
+    margin-right: 0;
+  }
+
+  .blog_container {
+    align-items: flex-start;
+  }
+
+  .discover {
+    flex-basis: 30%;
+    margin-left: 0;
+  }
+
+  .footer {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*main {
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-top: 1px solid #e7e7e7;
+  }
+
+  .blog_container {
+    align-items: flex-start;
+  }
+
+  .discover {
+    flex-basis: 30%;
+    margin-left: 0;
+  }
+
+  .footer {
+    margin-bottom: 30px;
+  }*/
+}
