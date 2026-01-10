@@ -164,11 +164,12 @@ hero {
 
 /* ARTICLE SECTION */
 article {
-  padding: 40px 50px 20px 50px;
-  border-bottom: 1px solid #e7e7e7;
+  padding: 40px 50px;
+  background-image: url("/svg.html");
 }
 
 /* TRENDING ON MEDIUM */
+
 .trending {
   display: flex;
   align-items: center;
@@ -179,14 +180,18 @@ article {
 }
 
 /* CARD WITHOUT ICON ON PUBLICATION */
-.container1 {
+
+.card_container {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .card_trend {
   display: flex;
   margin: 20px 5px;
-  flex-basis: 33%;
+  flex-basis: 30%;
 }
 
 .information {
@@ -224,6 +229,15 @@ article {
 main {
   padding: 60px 50px;
   display: flex;
+  border-top: 1px solid #e7e7e7;
+}
+
+.blog_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  flex-basis: 66%;
 }
 
 .blog {
@@ -231,6 +245,7 @@ main {
   flex-direction: row-reverse;
   flex-basis: 60%;
   margin-right: 50px;
+  margin-bottom: 60px;
 }
 
 .information2 {
@@ -242,7 +257,6 @@ main {
 }
 
 .imgBlog {
-  height: 50%;
   max-width: 300px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
@@ -267,10 +281,17 @@ main {
   margin-left: 30px;
 }
 
+.discover h4 {
+  position: sticky;
+  top: 5px;
+}
+
 .search {
   display: flex;
   flex-wrap: wrap;
   line-height: 3em;
+  position: sticky;
+  top: 30px;
 }
 
 /* FOOTER */
