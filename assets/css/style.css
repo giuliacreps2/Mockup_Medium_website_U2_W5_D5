@@ -114,6 +114,14 @@ button {
   border: none;
 }
 
+.argument {
+  background-color: #f3f3f3;
+  color: #818181;
+  border-radius: 20px;
+  padding: 5px 12px;
+  margin-left: 10px;
+}
+
 .rectangular {
   padding: 10px;
   border: 1px solid #e7e7e7;
@@ -156,7 +164,7 @@ hero {
 
 /* ARTICLE SECTION */
 article {
-  padding: 40px 50px;
+  padding: 40px 50px 20px 50px;
   border-bottom: 1px solid #e7e7e7;
 }
 
@@ -209,4 +217,72 @@ article {
 
 .star {
   margin-left: 5px;
+}
+
+/* MAIN */
+
+main {
+  padding: 60px 50px;
+  display: flex;
+}
+
+.blog {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-basis: 60%;
+  margin-right: 50px;
+}
+
+.information2 {
+  margin-right: 20px;
+}
+
+.imgBlog {
+  width: 200px;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.information_about_publication {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* DISCOVER */
+
+.discover {
+  flex-basis: 30%;
+  margin-left: 30px;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 3em;
+}
+
+/* FOOTER */
+
+.footer {
+  border-top: 1px solid #e7e7e7;
+  margin-top: 50px;
+  padding-top: 20px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.items {
+  margin-right: 20px;
+  flex-basis: 5%;
+  text-align: right;
+  line-height: 1.8em;
 }
