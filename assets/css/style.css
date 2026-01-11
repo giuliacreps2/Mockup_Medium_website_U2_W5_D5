@@ -437,7 +437,7 @@ main {
     width: 100%;
   }
 
-  /* Misure FISSE per i 2 items */
+  /* FIXED measurements for the 2 items */
   .image {
     flex: 0 0 200px;
     width: 200px;
