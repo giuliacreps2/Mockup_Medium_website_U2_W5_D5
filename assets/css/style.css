@@ -159,6 +159,10 @@ hero {
   border-bottom: 1px solid black;
 }
 
+.heroSection {
+  padding-top: 46px;
+}
+
 .heroImage {
   flex: 0 6 auto;
   flex-shrink: 6;

@@ -30,7 +30,7 @@ document.addEventListener("scroll", function () {
   const button = document.querySelector(".start");
   const hero = document.querySelector("hero");
 
-  let fineHero = hero.offsetTop + hero.offsetHeight;
+  let fineHero = hero.offsetTop + hero.offsetHeight - 76;
 
   console.log("Scroll attuale:", window.scrollY);
 
