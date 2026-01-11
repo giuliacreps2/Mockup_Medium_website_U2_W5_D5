@@ -355,6 +355,15 @@ main {
     font-size: 22px;
   }
 
+  button {
+    margin-right: 2px;
+    font-size: 12px;
+  }
+
+  .start {
+    font-size: 14px;
+  }
+
   hero {
     padding: 50px 30px 10px 50px;
     vertical-align: auto;
@@ -376,11 +385,6 @@ main {
     object-fit: cover;
     max-width: 450px;
   }
-
-  /*.heroImage {
-    align-self: stretch;
-    background-image: url("/assets/imgs/svg/background.svg");
-  }*/
 
   .card_trend {
     display: flex;
