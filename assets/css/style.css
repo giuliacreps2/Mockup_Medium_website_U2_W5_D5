@@ -139,7 +139,12 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  position: static;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transition: background-color 0.4s ease;
 }
 
 /* STYLE NAVBAR */
@@ -160,7 +165,7 @@ hero {
 }
 
 .heroSection {
-  padding-top: 46px;
+  padding-top: 76px;
 }
 
 .heroImage {
